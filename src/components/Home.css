@@ -1,0 +1,84 @@
+#home {
+    height: 100vh;
+    background: url('../assets/webac3.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 80px 60px;
+    text-align: left;
+    color: #ffffff;
+}
+  
+.home-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    gap: 30px; /* Adds spacing between avatar and text */
+}
+  
+model-viewer {
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+  
+.home-intro {
+    flex: 2;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #e0e0e0;
+}
+  
+.home-intro h2 {
+    font-size: 45px;
+    margin-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+    color: #76c7c0;
+}
+  
+.home-intro p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #cccccc;
+}
+
+/* Button Group Styling */
+.button-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Common Button Styling */
+.btn {
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    border: 2px solid #76c7c0;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+/* Resume Button Specific Styling */
+.resume-btn {
+    background-color: transparent;
+}
+
+.resume-btn:hover {
+    background-color: #76c7c0;
+    color: #000000;
+}
+
+/* Connect Button Specific Styling */
+.connect-btn {
+    background-color: transparent;
+}
+
+.connect-btn:hover {
+    background-color: #ff6347;
+    color: #000000;
+}

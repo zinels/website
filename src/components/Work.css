@@ -1,0 +1,70 @@
+#work {
+    position: relative; /* Ensure ::before works correctly */
+    padding: 80px 60px;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .work-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .work-container h2 {
+    font-size: 36px;
+    color: #76c7c0;
+    margin-bottom: 40px;
+  }
+  
+  .work-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .work-card {
+    background-color: rgba(30, 30, 30, 0.8); /* Slight transparency for glass effect */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid;
+    border-image: linear-gradient(45deg, #76c7c0, #ff7e5f) 1;
+  }
+  
+  .work-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .work-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .work-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  #work::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../assets/floating-cogs.svg') no-repeat center center/cover;
+    opacity: 0.1;
+    z-index: -1;
+  }

@@ -1,0 +1,83 @@
+#about {
+    padding: 80px 60px 40px; /* Reduced bottom padding */
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    margin-bottom: 40px; /* Reduced bottom margin */
+  }
+  
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #76c7c0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+  }
+  
+  .about-text {
+    max-width: 600px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.8;
+    font-family: 'Montserrat', sans-serif;
+    color: #cccccc;
+  }
+  
+  .about-text h2 {
+    font-size: 36px;
+    color: #76c7c0;
+    margin-bottom: 20px;
+  }
+  
+  /* Education Section */
+  .education-cards {
+    margin-top: 40px; /* Reduced top margin */
+  }
+  
+  .education-cards h3 {
+    font-size: 30px;
+    color: #76c7c0;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background-color: #1e1e1e;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .card h4 {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #cccccc;
+    margin-bottom: 10px;
+  }
+  
+  .card ul {
+    margin-left: 20px;
+    list-style-type: disc;
+    color: #cccccc;
+  }

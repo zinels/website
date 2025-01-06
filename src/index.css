@@ -1,0 +1,42 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* General Section Styling */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Links */
+a {
+  color: #76c7c0;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ffcc00;
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
